@@ -1,0 +1,5 @@
+<h3>All Courses with Count of Students</h3>
+
+<% @courses.alpha.each do |course| %>
+  <p><%= course.name %>: <%= course.students.count %></p>
+<% end %>
